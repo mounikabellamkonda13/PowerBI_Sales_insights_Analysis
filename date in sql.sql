@@ -1,0 +1,10 @@
+select * from sales.customers;
+select * from sales.transactions;
+select * from sales.products;
+select * from sales.markets;
+select * from sales.date;
+select count(*) from sales.transactions where market_code="Mark001";
+select * from sales.transactions where market_code="Mark001";
+select * from sales.transactions where currency="USD";
+select * from sales.transactions limit 5;
+select distinct (transactions.currency) from transactions;
